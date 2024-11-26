@@ -15,4 +15,4 @@ def main(tabs_path, audio_save_path, soundfont_path, save_midi=False, play_midi=
     # Pass the tabs_notes to the RiffScript parser, and to the tabs2music parser
     compiler(tabs_notes) # I think this will have no return
 
-main("/Users/yahmed/Documents/test_tabs2music/tabs.txt", "/Users/yahmed/Documents/test_tabs2music", "/Users/yahmed/Documents/test_tabs2music/Guitars-Universal-V1.5.sf2")
+main(r"C:\Users\yusef\Documents\test_tabs2music\tabs.txt.txt", r"C:\Users\yusef\Documents\test_tabs2music", r"C:\Users\yusef\Documents\test_tabs2music\sf.sf2", tempo=200)
